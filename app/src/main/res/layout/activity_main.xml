@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="@color/black"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="174dp"
+        android:layout_height="30dp"
+        android:fontFamily="@font/montserrat_semibold"
+        android:text="É muito fácil"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="85dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="251dp"
+        android:layout_height="86dp"
+        android:fontFamily="@font/montserrat_medium"
+        android:text="Escolha se você gostaria de começar com um hóspede experiente, defina um preço inicial e publique seu anúncio."
+        android:textColor="#5F5E5E"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="531dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="259dp"
+        android:layout_height="50dp"
+        android:fontFamily="@font/montserrat_semibold"
+        android:text="Dê os toques finais e publique"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="481dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="18dp"
+        android:layout_height="26dp"
+        android:fontFamily="@font/montserrat_semibold"
+        android:text="3"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="481dp" />
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="424dp"
+        android:layout_height="2dp"
+        android:background="@color/black"
+        android:backgroundTint="@color/black"
+        android:backgroundTintMode="screen"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.461"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="446dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="266dp"
+        android:layout_height="72dp"
+        android:fontFamily="@font/montserrat_medium"
+        android:text="Adicione cinco ou mais fotos, além de um título e uma descrição. Nós ajudaremos você."
+        android:textColor="#5F5E5E"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="374dp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="287dp"
+        android:layout_height="28dp"
+        android:fontFamily="@font/montserrat_semibold"
+        android:text="Faça com que se destaque"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="346dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="18dp"
+        android:layout_height="26dp"
+        android:fontFamily="@font/montserrat_semibold"
+        android:text="2"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="346dp" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="424dp"
+        android:layout_height="2dp"
+        android:background="@color/black"
+        android:backgroundTint="@color/black"
+        android:backgroundTintMode="screen"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.461"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="316dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="245dp"
+        android:layout_height="88dp"
+        android:fontFamily="@font/montserrat_medium"
+        android:text="Compartilhe algumas informações básicas, como a localização e quantos hóspedes podem ficar no local."
+        android:textColor="#5F5E5E"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="228dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="287dp"
+        android:layout_height="28dp"
+        android:fontFamily="@font/montserrat_semibold"
+        android:text="Descreva sua acomodação"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="200dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="18dp"
+        android:layout_height="26dp"
+        android:fontFamily="@font/montserrat_semibold"
+        android:text="1"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="200dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="310dp"
+        android:layout_height="48dp"
+        android:fontFamily="@font/montserrat_semibold"
+        android:text="anunciar no Airbnb"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="115dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="337dp"
+        android:layout_height="38dp"
+        android:backgroundTint="#d90765"
+        android:text="Comece já"
+        android:textColorLink="#d90765"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="659dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="102dp"
+        android:layout_height="80dp"
+        app:srcCompat="@drawable/cama"
+        tools:layout_editor_absoluteX="310dp"
+        tools:layout_editor_absoluteY="210dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="95dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/slaa"
+        tools:layout_editor_absoluteX="310dp"
+        tools:layout_editor_absoluteY="336dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="91dp"
+        android:layout_height="103dp"
+        app:srcCompat="@drawable/porta"
+        tools:layout_editor_absoluteX="310dp"
+        tools:layout_editor_absoluteY="481dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
